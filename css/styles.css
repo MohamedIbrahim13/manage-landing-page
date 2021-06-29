@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #242d52;
+  font-weight: 500 !important;
+}
+
+.bg-color {
+  background-color: #f25f3a;
+  color: #fafafa;
+}
+.bg-color:hover {
+  color: #fafafa;
+}
+
+.bg-reverse {
+  background-color: #fafafa;
+  color: #f25f3a;
+}
+.bg-reverse:hover {
+  color: #ffefeb;
+}
+
+.list-group-item {
+  border: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background: #1d1e25;
+}
+footer p,
+footer a {
+  font-weight: 400;
+}
+footer a {
+  color: #fafafa;
+}
+footer a:hover {
+  color: #f25f3a;
+}
+footer .social a:hover {
+  color: #f25f3a;
+}
+
+.sec-b {
+  width: 50%;
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+}
+
+.sec-b .img {
+  width: 75px;
+  height: 75px;
+}
+
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  80% {
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
